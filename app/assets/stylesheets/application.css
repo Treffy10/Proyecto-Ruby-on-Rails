@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+
+body{
+    font-family: 'Jost', sans-serif;
+    text-align: center; /* La posicion del texto*/
+}

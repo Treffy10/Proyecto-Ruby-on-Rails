@@ -1,0 +1,9 @@
+<% content_for :title, "Habitaciones - Rubies" %>
+<h1>Habitaciones</h1>
+
+<% @bedrooms.each do |bedroom| %>
+    <%= link_to habitacion_path(bedroom.id) do %>
+        <h2><%= bedroom.title %></h2>
+        <span>S/.<%= bedroom.price_night %></span>  
+    <% end %>
+<% end %>

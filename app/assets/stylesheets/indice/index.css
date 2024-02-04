@@ -1,0 +1,27 @@
+.menu{
+    background: white;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+.menu li {  /* Al declarar esta clase de esta manera estamos diciendo que esta clase afectara a solo las etiquetas li que estan dentro de la clase menu*/
+    list-style: none;
+    padding: 5px;
+    font: bold 14px vwerdana;
+    display: inline-block;
+}
+
+.submenu{
+    background: white;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: right;
+}
+
+.submenu li{
+    list-style: none;
+    padding: 5px;
+    font: bold 14px vwerdana;
+    display: inline-block;
+}
